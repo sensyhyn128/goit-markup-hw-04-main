@@ -15,7 +15,9 @@
 
 .team-item {
     background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .team-member-name {
@@ -46,10 +48,34 @@
 }
 
 .team-wrapper {
-    padding: 32px 16px;
+    padding: 32px 16px 0 16px;
+    margin-bottom: 8px;
 }
 
 .team-member-name {
     margin-bottom: 8px;
+}
+
+.icons-item-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    gap: 24px; 
+}
+
+.icons-wrapper-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D5AE5; 
+    fill: #f4f4fd;
+    padding: 12px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.icons-wrapper-team:hover {
+    background-color: #404bbf;
 }
 
