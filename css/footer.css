@@ -1,0 +1,36 @@
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    text-decoration: none;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+}
+

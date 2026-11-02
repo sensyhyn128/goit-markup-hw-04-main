@@ -1,0 +1,40 @@
+.hero {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 56px;
+    width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.btn-primary {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: 0;
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #404BBF;
+}
