@@ -92,11 +92,11 @@
     gap: 40px;
 }
 
-.nav-link.current {
+.nav-link.is-active {
     color: #404bbf;
 }
 
-.nav-link.current::after {
+.nav-link.is-active::after {
     content: '';
     position: absolute;
     left: 0;
